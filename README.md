@@ -191,9 +191,9 @@ The following colored boxes can be used for writing definitions, examples and no
    <Content>
 \end{example}
 
-\begin{note}{<Title>}
+\begin{info}{<Title>}
    <Content>
-\end{note}
+\end{info}
 ```
 
 #### Custom Color Boxes
@@ -212,11 +212,11 @@ You can also directly add a prefix and suffix to the box title at creation using
 
 #### Old Macros for Boxes
 
-Please note that, all of the macros in this section are deprecated (for not being verbatim-safe). Please use the `definition`, `example` and `note` environments described above. Yet, they are still created for backwards compatibility:
+Please note that, all of the macros in this section are deprecated (for not being verbatim-safe). Please use the `definition`, `example` and `info` environments described above. Yet, they are still created for backwards compatibility:
 
 - `\mydefinition{<title>}{<content>}`
 - `\myexample{<title>}{<content>}`
-- `\mynote{<title>}{<content>}`
+- `\myinfo{<title>}{<content>}`
 
 ### Dark Mode
 
