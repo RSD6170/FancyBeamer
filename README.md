@@ -32,17 +32,17 @@ We encourage the format `FancyBeamer<UniversityAcronym>` for the fork names (e.g
       - [Automatic Dark Mode for Pictures](#automatic-dark-mode-for-pictures)
     - [Other Functionalities](#other-functionalities)
 
-
 ## How to Use
 
 If you are interested in a quickstart, have a look at our [demo-slides.tex](demo-slides/demo-slides.tex) or [empty-slides.tex](empty-slides/empty-slides.tex) files.
 
 ### Creating a Presentation
-First, you need to create a new beamer presentation. For that, add 
 
-``tex
+First, you need to create a new beamer presentation. For that, add
+
+```tex
 \documentclass[aspectratio=169]{beamer}
-``
+```
 
 to your `.tex`-file. We recommend a font size of around 8pt for online presentations so you can use  `\documentclass[aspectratio=169,8pt]{beamer}`.
 
@@ -191,9 +191,9 @@ The following colored boxes can be used for writing definitions, examples and no
    <Content>
 \end{example}
 
-\begin{note}{<Title>}
+\begin{info}{<Title>}
    <Content>
-\end{note}
+\end{info}
 ```
 
 #### Custom Color Boxes
@@ -212,11 +212,11 @@ You can also directly add a prefix and suffix to the box title at creation using
 
 #### Old Macros for Boxes
 
-Please note that, all of the macros in this section are deprecated (for not being verbatim-safe). Please use the `definition`, `example` and `note` environments described above. Yet, they are still created for backwards compatibility:
+Please note that, all of the macros in this section are deprecated (for not being verbatim-safe). Please use the `definition`, `example` and `info` environments described above. Yet, they are still created for backwards compatibility:
 
 - `\mydefinition{<title>}{<content>}`
 - `\myexample{<title>}{<content>}`
-- `\mynote{<title>}{<content>}`
+- `\myinfo{<title>}{<content>}`
 
 ### Dark Mode
 
